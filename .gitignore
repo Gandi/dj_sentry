@@ -1,0 +1,9 @@
+# Workspace related
+.vscode/
+
+# Python related
+__pycache__
+*.pyi
+*.pyc
+
+# Tests related
