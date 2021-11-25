@@ -5,5 +5,7 @@
 __pycache__
 *.pyi
 *.pyc
+dist/
+build/
 
 # Tests related
