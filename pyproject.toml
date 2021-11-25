@@ -3,6 +3,9 @@ name = "dj-sentry"
 version = "0.1.0"
 description = "A Django app to initialize Sentry client for your Django applications"
 authors = ["Michael Vieira <dev@mvieira.fr>"]
+repository = "https://github.com/themimitoof/dj_sentry"
+readme = "README.md"
+keywords = ["django", "sentry"]
 license = "BSD-3-Clause"
 
 [tool.poetry.dependencies]
