@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "dj-sentry"
-version = "0.1.1"
+version = "0.2.0"
 description = "A Django app to initialize Sentry client for your Django applications"
 authors = ["Michael Vieira <dev@mvieira.fr>"]
 repository = "https://github.com/themimitoof/dj_sentry"
