@@ -15,6 +15,14 @@ name = "dj-sentry"
 version = "0.2.0"
 description = "A Django app to initialize Sentry client for your Django applications"
 readme = "README.md"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Framework :: Django",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Internet :: WWW/HTTP",
+]
 keywords = [
     "django",
     "sentry",
