@@ -1,6 +1,6 @@
 import logging
+from importlib import metadata
 
-import pkg_resources
 import sentry_sdk
 from django.apps import AppConfig
 from django.conf import settings
@@ -29,7 +29,7 @@ class SentryConfig(AppConfig):
 
         current_release = None
         if sentry_app_pkg:
-            current_release = pkg_resources.get_distribution(sentry_app_pkg).version
+            current_release = metadata.version(sentry_app_pkg)
 
         if "traces_sample_rate" not in sentry_extra_opts:
             # Do not use by default the tracing system of Sentry.
