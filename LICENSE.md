@@ -1,5 +1,5 @@
+Copyright 2021-2026 Gandi SAS
 Copyright 2021 Michael Vieira
-Copyright 2021 Gandi SAS
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
