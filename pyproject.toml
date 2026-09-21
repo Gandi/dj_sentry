@@ -12,7 +12,7 @@ dependencies = [
     "sentry-sdk >=2.0,<3",
 ]
 name = "dj-sentry"
-version = "0.2.0"
+version = "0.3.0"
 description = "A Django app to initialize Sentry client for your Django applications"
 readme = "README.md"
 classifiers = [
