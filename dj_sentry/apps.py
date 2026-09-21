@@ -1,10 +1,9 @@
 import logging
 
-from django.apps import AppConfig
-from django.conf import settings
-
 import pkg_resources
 import sentry_sdk
+from django.apps import AppConfig
+from django.conf import settings
 from sentry_sdk.integrations.django import DjangoIntegration
 
 log = logging.getLogger(__name__)
