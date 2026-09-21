@@ -3,6 +3,12 @@ package := 'dj_sentry'
 install:
     uv sync --group dev
 
+update:
+    uv sync --all-groups
+
+upgrade:
+    uv sync --all-groups --upgrade
+
 lint:
     uv run ruff check .
 
