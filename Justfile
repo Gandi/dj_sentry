@@ -15,10 +15,10 @@ release major_minor_patch: && changelog
 
 changelog:
     uv run python scripts/write_changelog.py
-    tail -n +4 CHANGES.rst >> CHANGES.rst.new
-    rm CHANGES.rst
-    mv CHANGES.rst.new CHANGES.rst
-    $EDITOR CHANGES.rst
+    tail -n +4 CHANGES.md >> CHANGES.md.new
+    rm CHANGES.md
+    mv CHANGES.md.new CHANGES.md
+    $EDITOR CHANGES.md
 
 publish:
     git commit -am "Release $(uv version --short --color=never)"
